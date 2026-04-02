@@ -1,0 +1,73 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CORPO */
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #1a001f, #3d0066);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* TÍTULO */
+h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #d9b3ff;
+}
+
+/* LABELS */
+label{
+    display: inline-block;
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* INPUTS */
+input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+/* INPUT TEXTO E NÚMERO */
+input[type="text"],
+input[type="number"]{
+    background-color: #f2e6ff;
+    color: black;
+    width: 200px;
+}
+
+/* BOTÃO */
+input[type="button"]{
+    background-color: #8000ff;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+/* EFEITO HOVER */
+input[type="button"]:hover{
+    background-color: #b366ff;
+    transform: scale(1.05);
+}
+
+/* RESULTADO */
+#resp{
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+}
