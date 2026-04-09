@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placar de Vôlei</title>
+    <link rel="stylesheet" href="styleplacar.css">
+</head>
+
+<body>
+
+    <h1><i>🏐 Placar de Vôlei</i></h1>
+
+    <!-- NOMES DOS TIMES -->
+    <label>Nome do Time A:</label>
+    <input type="text" id="nomeA">
+
+    <label>Nome do Time B:</label>
+    <input type="text" id="nomeB">
+
+    <input type="button" value="Confirmar Times" onclick="definirTimes()">
+
+    <br><br>
+
+    <!-- SET -->
+    <h2><i>Set Atual</i></h2>
+    <span id="set">1</span>
+
+    <br><br>
+
+    <!-- PLACAR -->
+    <h2><i>Pontos</i></h2>
+
+    <label id="timeA">Time A</label>
+    <span id="pontosA">0</span>
+    <input type="button" value="+1" onclick="pontoA()">
+
+    <br><br>
+
+    <label id="timeB">Time B</label>
+    <span id="pontosB">0</span>
+    <input type="button" value="+1" onclick="pontoB()">
+
+    <br><br>
+
+    <!-- TEMPO -->
+    <h2><i>Tempo do Set</i></h2>
+    <span id="tempo">0</span> segundos
+
+    <br><br>
+
+    <input type="button" value="Iniciar Tempo" onclick="iniciar()">
+    <input type="button" value="Parar Tempo" onclick="parar()">
+
+    <br><br>
+
+    <input type="button" value="Próximo Set" onclick="proxSet()">
+    <input type="button" value="Resetar Tudo" onclick="resetar()">
+
+    <script src="Placar.js"></script>
+
+</body>
+
+</html>
