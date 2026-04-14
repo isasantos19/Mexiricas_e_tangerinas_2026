@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarifação</title>
+    <link rel="stylesheet" href="esta.css">
+</head>
+<body>
+    <h1><i>Tarifação de Estacionamento</i></h1>
+
+    <label for="inputA">Data e hora de entrada (Check-in):</label>
+    <input type="datetime-local" id="inputA" placeholder="dd/mm/aaaa , hora"><br>
+
+    <label for="inputA2">Data e hora de Saída (Check-out):</label>
+    <input type="datetime-local" id="inputA2" placeholder="dd/mm/aaaa , hora"><br>
+
+    <label for="inputB">Carro Grande (s/n):</label>
+    <input type="checkbox" id="inputB"><br>
+
+    <label for="inputC">Cliente Frequente (s/n):</label>
+    <input type="checkbox" id="inputC"><br>
+
+    <input type="button" value="Calcular" onclick="funcaocalcule()">
+    <br><br>
+
+    <label for="resp">Resultado: </label>
+    <span id="resp">...</span>
+
+    <script src="esta.js"></script>
+</body>
+</html>
