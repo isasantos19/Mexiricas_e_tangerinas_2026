@@ -1,0 +1,172 @@
+  *{
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+.linha{
+    display: flex;
+    width:100%;
+}
+
+.linha1{
+    height:25vh ;
+    background: rgb(31, 192, 122);
+}
+
+.linha2{
+    height:25vh ;
+    background: rgb(109, 207, 56);
+}
+
+.linha3{
+    height:25vh ;
+    background: rgb(0, 60, 255);
+}
+
+.linha4{
+    height:25vh ;
+    background: rgb(255, 89, 0);
+}
+
+.coluna{
+    flex:1;
+    border:2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coluna1_1{
+    flex: 1;
+    border: 2px solid black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coluna2_1{
+    flex:1;
+    border:2px solid black;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coluna2_2{
+   flex:1;
+   border: 2px solid black;
+
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.coluna3_1{
+    flex:1;
+    border: 2px solid black;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.coluna3_2{
+    flex:1;
+    border: 2px solid black;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.subcolunas1{
+    flex:1;
+    display: flex;
+    height: 100%;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.coluna4_1{
+    flex: 1;
+    display:flex;
+
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.coluna4_2{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 100%;
+}
+
+.subcolunas2{
+    flex: 1;
+    display: flex;
+    height: 100%;
+    border:2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcolunas{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border:2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.subcolunas1{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.subcolunas1 img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.subcolunas2{
+     flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcolunas2 img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.subcolunas2 span{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
