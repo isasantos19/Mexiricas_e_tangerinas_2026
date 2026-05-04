@@ -1,0 +1,12 @@
+<p id="resp"></p>
+
+<script>
+    let dados= new URLSearchParams(window.location.search);
+
+    let nome = dados.get("nome");
+    let idade = dados.get("idade");
+    let cidade = dados.get("cidade");
+
+    document.getElementById("resp").innerHTML = "Nome:"+ nome +"<br>"+ "Idade:" + idade +"<br>"+ "Cidade:" + cidade;
+
+</script>
